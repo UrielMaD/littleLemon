@@ -3,8 +3,35 @@ import React from 'react';
 const Main = () => {
 
     return (
-        <main>
+        <main className="main">
+            <section className="hero-section">
+                <div className="hero-section-text-container">
+                    <h1 className="hero-section-title">Little Lemon</h1>
+                    <h4 className="hero-section-subtitle">Chicago</h4>
+                    <p className="hero-section-description">
+                        We are a family owned Mediterranean restaurant, focused on traditional
+                        recipies served with a modern twist.
+                    </p>
+                    <div>
+                        <button className="button">
+                            Reserve a Table
+                        </button>
+                    </div>
+                </div>
+                <div className="hero-sectoion-image-container">
+                </div>
+            </section>
+            <section className="highlights-section">
+                <div className="highlights-header">
+                    <h1>This weeks specials!</h1>
+                    <button className="button">
+                        Online Menu
+                    </button>
+                </div>
+                <div className="highlights">
 
+                </div>
+            </section>
         </main>
     );
 };

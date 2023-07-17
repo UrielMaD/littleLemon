@@ -1,0 +1,56 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    position: relative;
+    
+}
+
+.hero-section {
+    background-color: #495E57;
+    padding: 0 300px;
+    padding-bottom: 30px;
+}
+
+.hero-section-title {
+    font-size: 2em;
+    margin-bottom: 5px;
+    color: #F4CE14;
+}
+
+.hero-section-subtitle {
+    margin: 0;
+    color: white;
+}
+
+.hero-section-description {
+    max-width: 190px;
+    margin: 15px 0;
+    font-size: 0.9em;
+    color: white;
+    font-weight: 300;
+}
+
+.hero-sectoion-image-container {
+    position: absolute;
+    top: 27px;
+    right: 290px;
+    width: 240px;
+    height: 280px;
+    background-image: url(../assets/food-imagejpg.jpeg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+}
+
+.highlights-section {
+    margin-top: 60px;
+    padding: 0 300px;
+    padding-bottom: 30px;
+}
+
+.highlights-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
