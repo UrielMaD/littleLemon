@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Main = () => {
 
@@ -13,9 +14,11 @@ const Main = () => {
                         recipies served with a modern twist.
                     </p>
                     <div>
-                        <button className="button">
-                            Reserve a Table
-                        </button>
+                        <Link to="/bookingPage">
+                            <button className="button">
+                                Reserve a Table
+                            </button>
+                        </Link>
                     </div>
                 </div>
                 <div className="hero-sectoion-image-container">
